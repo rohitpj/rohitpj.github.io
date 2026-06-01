@@ -7,9 +7,9 @@ first_name: Rohit
 middle_name: P.
 last_name: John
 contact_note: >
-  Please email at rpj31@bath.ac.uk or rohitpauljohn@gmail.com.
+  Please email at rohitpauljohn@gmail.com.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Computer Science student at University of Bath, Software Developement intern at SLB Cambridge. 
+  ML researcher and software engineer focused on technical AI safety, reinforcement learning, and machine learning for symbolic computation.
 footer_text: >
 
 keywords: Computer Science, Machine Learning, AI, Software Development # add your own keywords or leave empty
