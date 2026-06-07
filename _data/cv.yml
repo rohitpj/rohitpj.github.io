@@ -34,9 +34,8 @@
       institution: SLB Cambridge Research, Cambridge
       year: 2024 - 2025
       description:
+        - Fine-tuned, evaluated, and deployed an LLM-based system to improve safety on oil wells using multi-modal datasets, currently under invention disclosure.
         - Modified Kuhn–Munkres and Murty's algorithms to optimise oil-rig scheduling systems, and developed novel graph-partitioning algorithms to handle more complex rig operations.
-        - Created Digital Twin of solar power-based energy storage system and optimised construction and production plans to minimise cost and greenhouse gas emissions.
-        - Fine-tuned, evaluated, and deployed an LLM-based system to improve safety on oil wells — currently under invention disclosure.
     - title: Research Placement
       institution: University of Exeter, Exeter
       year: 2023
@@ -92,3 +91,17 @@
     - title: Machine Learning for Symbolic Computation
       items:
         - Learned rule selection and ordering in computer algebra systems
+
+- title: Publications
+  type: list
+  contents:
+    - "Optimised quantifier elimination (QE) solving using novel GNN representations while resolving significant data pollution issues in current datasets of QE problems. Presented at ICMS 2024 and published in proceedings. <a href='https://doi.org/10.1007/978-3-031-64529-7_20' target='_blank'>https://doi.org/10.1007/978-3-031-64529-7_20</a>"
+    - "Improved Symbolic Integration in the SymPy computer algebra system by using RL and transformer models to learn optimal rule selection instead of relying on heuristics or pre-labelled datasets. Accepted for publication in the SCML 2026 conference."
+
+- title: References
+  type: map
+  contents:
+    - name: Dr Rashid Barket
+      value: barketr@uni.coventry.ac.uk
+    - name: Prof. Derek Long
+      value: dlong6@slb.com
