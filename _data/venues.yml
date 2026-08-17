@@ -1,9 +1,8 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+# Maps the `abbr` field of a bib entry to a coloured badge on the publications page.
+"ICMS":
+  url: https://scg.gitlab.io/icms/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
+"SCML":
+  url: https://scml.risc.jku.at/
   color: "#009f36"

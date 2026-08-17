@@ -1,14 +1,8 @@
+# Powers the (currently hidden) /repositories/ page.
+# Set `nav: true` in _pages/repositories.md to show it in the navbar.
 github_users:
-  - torvalds
-  - alshedivat
+  - rohitpj
 
 repo_description_lines_max: 2
 
-github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+github_repos: []

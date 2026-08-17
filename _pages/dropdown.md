@@ -1,8 +1,9 @@
 ---
 layout: page
 title: submenus
-nav: true
+nav: false
 nav_order: 8
+published: false # al-folio demo of navbar submenus
 dropdown: true
 children:
   - title: bookshelf

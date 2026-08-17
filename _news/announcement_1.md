@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2026-07-06 17:00:00+01:00
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Presented *Replacing Heuristic Rule Ordering in Symbolic Integration with Learned Policies* at **SCML 2026**.
