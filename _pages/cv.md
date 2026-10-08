@@ -9,7 +9,6 @@ nav_order: 3
 # render-cv.yml cannot currently produce it: the workflow passes --settings (rendercv 2.x
 # only) but _data/cv.yml uses the rendercv 1.x schema. Pre-existing template mismatch.
 cv_format: rendercv # options: rendercv, jsonresume
-description: Education, research and engineering experience. Source data lives in `_data/cv.yml`.
 toc:
   sidebar: left
 ---
