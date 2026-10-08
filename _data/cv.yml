@@ -4,7 +4,7 @@ cv:
   email: rohitpauljohn@gmail.com
   location: Bristol, United Kingdom
   image: ""
-  summary: MComp Computer Science graduate from the University of Bath, working at the intersection of machine learning and symbolic computation. Published research on graph neural networks for quantifier elimination and reinforcement learning for symbolic integration, alongside industrial experience applying LLMs and optimisation to energy systems.
+  summary: MComp Computer Science graduate from the University of Bath, working on improving Computer Algebra with Machine Learning. Published research on graph neural networks for quantifier elimination and reinforcement learning for symbolic integration, alongside industrial software development experience, now looking to work on Technical AI Safety research.
 
   social_networks:
     - network: GitHub
@@ -74,14 +74,6 @@ cv:
         url: https://doi.org/10.1007/978-3-031-64529-7_20
         summary: Optimised quantifier elimination solving using novel graph neural network representations, while resolving significant data pollution issues present in existing datasets of quantifier elimination problems. Presented at ICMS 2024 and published in the proceedings.
 
-    Awards:
-      - title: Top 10% — Global SLB Hackathon
-        authors:
-          - Rohit John
-        date: 2025
-        awarder: SLB
-        summary: Placed in the top 10% globally using k-means clustering and XGBoost models to predict power consumption and solar energy generation across production sites.
-
     Skills:
       - name: Languages
         icon: fa-solid fa-code
@@ -94,8 +86,3 @@ cv:
       - name: Data & Tooling
         icon: fa-solid fa-database
         keywords: "Pandas, MySQL, Django, Git"
-
-    Interests:
-      - name: Research interests
-        icon: fa-solid fa-tag
-        keywords: "Machine learning for symbolic computation, reinforcement learning, computer algebra systems, combinatorial optimisation, applied LLMs"

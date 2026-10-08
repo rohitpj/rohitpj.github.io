@@ -1,0 +1,73 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+// Site-local override (copied from al_folio_core 1.0.15): the CV date/location
+// column is a fixed col-md-2, too narrow for "2024 - 2025" plus a location, so it
+// spilled over the entry text. Give it a fixed width and let the text take the rest.
+.list-group-item {
+  list-style: none;
+}
+.list-group-item > .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-group-item > .row > .date-column {
+  flex: 0 0 9.5rem;
+  width: 9.5rem;
+  max-width: 9.5rem;
+}
+.list-group-item > .row > .date-column + div {
+  flex: 1 1 0;
+  width: auto;
+  max-width: none;
+  min-width: 0;
+}
+.date-column table.table-cv {
+  width: 100%;
+}
+.date-column p.location {
+  white-space: normal;
+  margin-bottom: 0;
+}
+@media (max-width: 767.98px) {
+  .list-group-item > .row > .date-column,
+  .list-group-item > .row > .date-column + div {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+  .list-group-item > .row > .date-column {
+    text-align: left !important;
+  }
+}

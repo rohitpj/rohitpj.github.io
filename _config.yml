@@ -197,7 +197,7 @@ collections:
       layout: post
     output: true
   projects:
-    output: true
+    output: false
   teachings:
     output: false
 
