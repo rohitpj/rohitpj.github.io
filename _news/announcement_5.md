@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Submitted _Do LLM Bidders Collude? A Sealed-Bid Procurement Sting_ to the **Apart Research AI Collusion Research Sprint** (Warwick hub). [Project](https://apartresearch.com/sprints/projects/do-llm-bidders-collude-a-sealedbid-procurement-sting-vw7b) · [Code](https://github.com/rohitpj/collusion_hackathon/tree/main/procurement_sting)
+Took part in the **Apart Research AI Collusion Research Sprint** (Warwick hub). Demonstrated spontaneous collusion between agents in market environments and built detection & prevention mechanisms. [Project](https://apartresearch.com/sprints/projects/do-llm-bidders-collude-a-sealedbid-procurement-sting-vw7b) · [Code](https://github.com/rohitpj/collusion_hackathon/tree/main/procurement_sting)
