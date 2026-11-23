@@ -19,4 +19,4 @@ The more consequential finding was about the datasets rather than the models. Th
 
 ## Outcome
 
-Presented at **ICMS 2024** and published in the proceedings as *Exploring Alternative Machine Learning Models for Variable Ordering in Cylindrical Algebraic Decomposition* ([DOI](https://doi.org/10.1007/978-3-031-64529-7_20)), with James Davenport.
+Presented at **ICMS 2024** and published in the proceedings as *Exploring Alternative Machine Learning Models for Variable Ordering in Cylindrical Algebraic Decomposition* ([DOI](https://doi.org/10.1007/978-3-031-64529-7_20)), with James Davenport. {% cite john2024exploring %}

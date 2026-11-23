@@ -223,6 +223,7 @@ include: ["_pages"]
 exclude:
   - AGENTS.md
   - al-folio-upgrade-report.md
+  - assets/jupyter/ # al-folio demo notebook; jekyll-jupyter-notebook needs the `jupyter` CLI and aborts the build without it. Remove this line if you add a real notebook post (and `pip install nbconvert jupyter`).
   - bin/
   - CLAUDE.md
   - Dockerfile

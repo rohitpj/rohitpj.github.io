@@ -19,4 +19,4 @@ This sidesteps both of the usual crutches — no hand-tuned heuristics, and no p
 
 ## Outcome
 
-Presented at **SCML 2026** (Conference on Symbolic Computation and Machine Learning), and submitted to the *Journal of Symbolic Computation*. Joint work with Rashid Barket and Matthew England.
+Presented at **SCML 2026** (Conference on Symbolic Computation and Machine Learning), and submitted to the *Journal of Symbolic Computation*. Joint work with Rashid Barket and Matthew England. {% cite john2026replacing %}
